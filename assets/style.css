@@ -1,24 +1,25 @@
-
-a{
+a {
     text-decoration: none !important;
+    color: #ffffff !important;
 }
+
 .bg-main {
-  background-color: #008374;
+    background-color: #008374;
 }
 
 .bg-main-head {
-  background-color: rgb(4, 139, 126);
+    background-color: rgb(4, 139, 126);
 }
 
-main{
+main {
     padding-bottom: 20rem;
 }
 
-.main{
+.main {
     padding-top: 5rem;
 }
 
-.btn-main1{
+.btn-main1 {
     padding: 1rem 3rem;
     border-radius: 2rem;
     border: 1px solid #66BEBA;
@@ -26,25 +27,45 @@ main{
     background-color: rgba(255, 255, 255, 0.133);
 }
 
-.btn-main2{
+.btn-main2 {
     padding: 1rem 2rem;
     border-radius: 2rem;
     color: white;
 }
 
-.btn-main2 span{
+.btn-main2 span {
     border-radius: 99999px;
     border: 2px solid rgba(255, 255, 255, 0.696);
 }
 
-.card-section{
+.card-section {
     height: 17rem;
 }
 
- 
-.my-card{
+
+.my-card {
     height: 20rem;
     transform: translateY(50%);
     border-radius: .5rem;
     background-color: rgb(0, 163, 147)
+}
+
+#btn-menu {
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+#menu {
+    width: 200px;
+    right: -200px;
+    transition: right .2s ease-in-out;
+}
+
+.sticky {
+    position: fixed;
+    color: #000a11;
+    right: 0;
+    left: 0;
+    top: 0;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.186);
 }

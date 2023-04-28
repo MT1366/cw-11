@@ -14,78 +14,86 @@
 </head>
 
 <body>
-    <main>
-        <header>
+    <main >
+        <header class="head">
             <div class="bg-main">
-                <div class="container">
-                    <div class="flex  d-flex flex-row justify-content-between ">
-                        <div class="d-flex gap-4">
-                            <a href="" class="text-white bi bi-house text-decoration-none">address: No.10 salehi deade
-                                end</a>
-                            <a href="" class="text-white bi bi-phone text-decoration-none">+98-912-88-77-805</a>
-
+                <div class="container ">
+                    <div class="row justify-content-between py-1 text-white">
+                        <div class="col-auto d-flex gap-3">
+                            <div><i class="bi bi-envelope me-1"></i><span>matinmmp1381@gmail.com</span></div>
+                            <div><i class="bi bi-phone me-1"></i><span>09183102170</span></div>
                         </div>
-
-                        <div class="d-flex gap-4">
-                            <a href="" class="text-white bi bi-instagram"></a>
-                            <a href="" class="text-white bi bi-twitter"></a>
-                            <a href="" class="text-white bi bi-facebook"></a>
-                            <a href="" class="text-white bi bi-whatsapp"></a>
+                        <div class="col-auto d-flex gap-3">
+                            <span><i class="bi bi-twitter"></i></span>
+                            <span><i class="bi bi-instagram"></i></span>
+                            <span><i class="bi bi-facebook"></i></span>
+                            <span><i class="bi bi-telegram"></i></span>
                         </div>
-
                     </div>
                 </div>
             </div>
-
-            <nav class="navbar navbar-expand-lg bg-main-head ">
+    
+            <nav id="nav" class="bg-main-head">
                 <div class="container">
-                    <div class="container-fluid">
-                        <a class="navbar-brand text-white" href="#">Impact</a>
+                    <div class=" d-flex justify-content-between align-items-center py-3 position-relative">
+                        <div class="h2 text-white">
+                            Impact
+                        </div>
+    
+                        <div class="d-none d-md-block">
+                            <ul class="d-flex list-unstyled text-white-50 align-items-center m-0 gap-4">
+                                <li class="py-1"><a href="#" class="text-white-main">Home</a></li>
+                                <li class="py-1"><a href="#" class="text-white-main">About</a></li>
+                                <li class="py-1"><a href="#" class="text-white-main">Services</a></li>
+                                <li class="py-1"><a href="#" class="text-white-main">Portfolio</a></li>
+                                <li class="py-1"><a href="#" class="text-white-main">Team</a></li>
+                                <li class="py-1"><a href="#" class="text-white-main">Blog</a></li>
+                                <li>
+                                    <div class="dropdown ">
+                                        <button class="btn bg-main-color dropdown-toggle text-white-main" type="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            Dropdown button
+                                        </button>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Action</a></li>
+                                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="py-1"><a href="#" class="text-white-main">Contact</a></li>
+                            </ul>
+                        </div>
+                        <i id ="btn-menu"class="bi bi-list text-white d-block d-md-none " ></i>
+                        <div id="menu" class="bg-main position-fixed top-0 bottom-0  ">
+                            <i id="btn-close" style="font-size: 2rem ;cursor: pointer;" class="bi bi-x-lg text-white"></i>
+                            <ul class="d-flex flex-column list-unstyled text-white-50 align-items-center m-0 gap-4 mt-5">
+                                <li class="py-1"><a href="#" class="text-white-main">Home</a></li>
+                                <li class="py-1"><a href="#" class="text-white-main">About</a></li>
+                                <li class="py-1"><a href="#" class="text-white-main">Services</a></li>
+                                <li class="py-1"><a href="#" class="text-white-main">Portfolio</a></li>
+                                <li class="py-1"><a href="#" class="text-white-main">Team</a></li>
+                                <li class="py-1"><a href="#" class="text-white-main">Blog</a></li>
+                                <li>
+                                    <div class="dropdown ">
+                                        <button class="btn bg-main-color dropdown-toggle text-white-main" type="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            Dropdown button
+                                        </button>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Action</a></li>
+                                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="py-1"><a href="#" class="text-white-main">Contact</a></li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-white">
-                            <li class="nav-item">
-                                <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-white" href="#">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-white ">Services</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-white ">Portfolios</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-white ">Teams</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-white ">Blog</a>
-                            </li>
-                            <li>
-                                <div class="dropdown ">
-                                    <button class="btn bg-main text-white dropdown-toggle" type="button"
-                                        data-bs-toggle="dropdown" aria-expanded="false">
-                                        Dropdown button
-                                    </button>
-                                    <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="#">Action</a></li>
-                                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                    </ul>
-                                </div>
-                            </li>
-
-                            <li class="nav-item">
-                                <a class="nav-link text-white">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
+    
                 </div>
             </nav>
-
-            </div>
-
         </header>
 
         <section class="bg-main-head main">
@@ -104,7 +112,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-lg-6 d-flex justify-content-end pt-5">
+                    <div class="col-12 col-lg-6 d-flex  justify-content-center pt-5">
                         <img src="assets/img/p.png" alt="">
                     </div>
                 </div>
